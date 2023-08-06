@@ -10,7 +10,7 @@ transpost = lambda x: list(zip(*x))
 print_matrix = lambda x: list(map(print, x))
 
 # Create function reading dataset.
-def read_data(file_path):
+def read_data(file_path:str)->list:
     data = []
     with open(file_path, "r") as file:
         lines = file.readlines()
@@ -155,7 +155,7 @@ def cross_validation(dataset:dict, folds:int = 10):
 
 # main.
 if __name__ == "__main__":
-    dataset = read_data('2csTWOCLASS.txt')
+    dataset = read_data('TWOCLASS.txt')
     cross_validation(dataset, folds=10)
     
     
