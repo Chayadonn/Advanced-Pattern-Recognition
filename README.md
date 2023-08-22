@@ -1,2 +1,3 @@
 # Advanced-Pattern-Recognition
-To store computer assignments in advanced pattern recognition.
+To store computer assignments with advanced pattern recognition.
+:)
